@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+# /docs holds source PDFs you drop in; keep the folder, ignore bulky data
+# except the small samples that ship with the repo.
+docs/*
+!docs/.gitkeep
+!docs/README.md
+!docs/samples/
+output/*
+!output/.gitkeep
